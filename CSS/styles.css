@@ -1,0 +1,24 @@
+header      {
+    color: #02040F;
+    font-family: 'Domine', serif;
+}
+
+nav{
+    margin: 20px;
+    color: #002642;
+    border: 2px dotted;
+    max-width: 600px;
+    font-family: 'Bree Serif', serif;
+
+}
+
+h2      {
+    color: #E5DADA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p       {
+    color: #E59500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 600px;
+}
