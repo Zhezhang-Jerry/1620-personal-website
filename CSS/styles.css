@@ -7,6 +7,23 @@ header      {
     right: 0px;
 }
 
+h1      {
+    text-align: center;
+}
+
+h2      {
+    color: #02040f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p       {
+    color: #E59500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 600px;
+
+}
+
 .menu{
     margin: 0px;
     color: #002642;
@@ -18,11 +35,6 @@ header      {
 
 }
 
-h2      {
-    color: #02040f;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .mainp{
     color:#E59500;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,20 +42,6 @@ h2      {
     position: absolute;
     top: 250px;
 }
-
-p       {
-    color: #E59500;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    width: 600px;
-
-}
-
-h1      {
-    text-align: center;
-    
-}
-
 
 .pic   {
     width: 400px;
