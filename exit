@@ -1,0 +1,160 @@
+[1mdiff --git a/CSS/style.css b/CSS/style.css[m
+[1mdeleted file mode 100644[m
+[1mindex e830a19..0000000[m
+[1m--- a/CSS/style.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,10 +0,0 @@[m
+[31m-*       {[m
+[31m-    color: pink;[m
+[31m-}[m
+[31m-body    {[m
+[31m-    color: sandybrown;[m
+[31m-}[m
+[31m-[m
+[31m-h1      {[m
+[31m-    color: slateblue;[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/CSS/styles.css b/CSS/styles.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..34375c9[m
+[1m--- /dev/null[m
+[1m+++ b/CSS/styles.css[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32mheader      {[m
+[32m+[m[32m    color: #02040F;[m
+[32m+[m[32m    font-family: 'Domine', serif;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mnav{[m
+[32m+[m[32m    margin: 20px;[m
+[32m+[m[32m    color: #002642;[m
+[32m+[m[32m    border: 2px dotted;[m
+[32m+[m[32m    max-width: 600px;[m
+[32m+[m[32m    font-family: 'Bree Serif', serif;[m
+[32m+[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mh2      {[m
+[32m+[m[32m    color: #E5DADA;[m
+[32m+[m[32m    font-family: Georgia, 'Times New Roman', Times, serif;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mp       {[m
+[32m+[m[32m    color: #E59500;[m
+[32m+[m[32m    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;[m
+[32m+[m[32m    max-width: 600px;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 0f43a45..5fb3d22 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -2,24 +2,27 @@[m
+ <html lang="en">[m
+ <head>[m
+     <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <link rel="stylesheet" href="CSS/style.css">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com">[m
+[32m+[m[32m    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com">[m
+[32m+[m[32m    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">[m
+[32m+[m[32m    <link rel="stylesheet" href="CSS/styles.css">[m
+     <title>My personal website</title>[m
+ </head>[m
+ <body>[m
+[32m+[m[32m    <header>Zhe Zhang(Jerry) A01257572</header>[m
+     <h1>Zhe Zhang(Jerry)</h1>[m
+[31m-    <image src="images/Zhe_Zhang.jpg" width = "300" heigh = "400" alt="Zhe Zhang" class="me">[m
+[31m-    <h2>Student ID: A01257572</h2>[m
+[31m-    <p>I am Jerry, and I born in Wuhan <em>where is the first place to report the covid-19</em>, China. [m
+[31m-    I stay in Canada for about 8 years. I used to love playing video games, <em>but I got almost banned after I am getting married.</em>[m
+[31m-    I am very interested in any program in <strong>coding</strong>, and not good at <strong> remembering those principles</strong>.[m
+[31m-    <em>I will try my best in this course!</em>[m
+[31m-        <h3>my course list</h3>[m
+[31m-        <ol>[m
+[31m-            <li>ACIT 1515 Scripting for IT <a href="https://www.bcit.ca/outlines/20211084977/">ACIT 1515 Course Outline</a></li>[m
+[31m-            <li>ACIT 1620 Fundamental Web Technologies</li>[m
+[31m-            <li>MATH 1310 Technical Math for IT</li>[m
+[31m-        </ol>[m
+[31m-  </p>[m
+[32m+[m[32m    <nav class="menu">[m
+[32m+[m[32m        <ul>[m
+[32m+[m[32m            <li><a href="pages/about.html">About Me</a></li>[m
+[32m+[m[32m            <li><a href="pages/courses.html">My Courses</a></li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m</nav>[m
+[32m+[m
+[32m+[m[32m    <main>[m
+[32m+[m[32m    <p>You can know about me by clicking the navigation.</p>[m
+[32m+[m[32m    </main>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+[1mdiff --git a/pages/about.html b/pages/about.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1a59e47[m
+[1m--- /dev/null[m
+[1m+++ b/pages/about.html[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com">[m
+[32m+[m[32m    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">[m
+[32m+[m[32m    <link rel="stylesheet" href="../CSS/styles.css">[m
+[32m+[m[32m    <title>About Me</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header>Zhe Zhang(Jerry) A01257572</header>[m
+[32m+[m[32m    <section>[m
+[32m+[m[32m    <h1>That's what I look liked</h1>[m
+[32m+[m[32m    <image src="../images/Zhe_Zhang.jpg" width="300" heigh="400" alt="Zhe Zhang" class="me">[m
+[32m+[m[32m</section>[m
+[32m+[m[41m    [m
+[32m+[m[32m    <article>[m
+[32m+[m[32m    <h2>Something about me</h2>[m
+[32m+[m[32m    <p>I am Jerry, and I born in Wuhan <em>where is the first place to report the covid-19</em>, China.[m[41m [m
+[32m+[m[32m        I stay in Canada for about 8 years. I used to love playing video games, <em>but I got almost banned after I am getting married.</em>[m
+[32m+[m[32m        I am very interested in any program in <strong>coding</strong>, and not good at <strong> remembering those theories</strong>.[m
+[32m+[m[32m        <em>I will try my best in this course!</em></p>[m
+[32m+[m[32m    </article>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/pages/courses.html b/pages/courses.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..315fbff[m
+[1m--- /dev/null[m
+[1m+++ b/pages/courses.html[m
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com">[m
+[32m+[m[32m    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet">[m
+[32m+[m[32m    <link ref="stylesheet" href="../CSS/styles.css">[m
+[32m+[m[32m    <title>My Courses</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header>Zhe Zhang(Jerry) A01257572</header>[m
+[32m+[m[32m    <main>[m
+[32m+[m[32m    <h1>My courses list</h1>[m
+[32m+[m[32m    <ol>[m
+[32m+[m[32m        <li><a href="https://www.bcit.ca/outlines/20211084967/">ACIT 1620 Fundamental Web Technologies</a></li>[m
+[32m+[m[32m        <li><a href="https://www.bcit.ca/outlines/20211084977/">ACIT 1515 Scripting for IT</a></li>[m
+[32m+[m[32m        <li><a href="https://learn.bcit.ca/d2l/le/content/714792/viewContent/5628320/View">MATH 1310 Technical Math for IT</a></li>[m
+[32m+[m[32m    </ol>[m
+[32m+[m[32m</main>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
