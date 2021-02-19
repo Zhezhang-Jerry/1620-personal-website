@@ -30,8 +30,9 @@ p       {
     border: 2px dotted;
     font-family: 'Bree Serif', serif;
     position: fixed;
-    width: 100%;
+    width: 30%;
     top: 0px;
+    background-color: #E5dada;
 
 }
 
